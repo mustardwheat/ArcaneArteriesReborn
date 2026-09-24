@@ -1,19 +1,19 @@
 [
   {
     "modid": "arcane_arteries",
-    "name": "Arcane Arteries Kedition",
+    "name": "Arcane Arteries Reborn",
     "description": "An arcane upgrade for Blood Magic",
     "version": "${version}",
     "mcversion": "${mcversion}",
-    "url": "",
+    "url": "https://www.mcmod.cn/class/18391.html",
     "updateUrl": "",
     "authorList": [
-      "Keletu66666", "MaxIsH0t"
+      "mustardwheat", "Keletu66666", "MaxIsH0t"
     ],
     "credits": "",
     "logoFile": "",
     "screenshots": [],
-    "dependencies": [
-    ]
+    "dependencies": ["thaumcraft", "bloodmagic", "botania", "baubles"],
+    "useDependencyInformation": "true"
   }
 ]

@@ -1,11 +1,10 @@
 package com.keletu.arcane_arteries.item;
 
-import WayofTime.bloodmagic.BloodMagic;
 import WayofTime.bloodmagic.api.impl.BloodMagicAPI;
 import WayofTime.bloodmagic.util.DamageSourceBloodMagic;
 import WayofTime.bloodmagic.util.helper.PlayerSacrificeHelper;
 import WayofTime.bloodmagic.util.helper.PurificationHelper;
-import com.keletu.arcane_arteries.ArcaneArteries;
+import com.keletu.arcane_arteries.ArcaneArteriesReborn;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.monster.IMob;
 import net.minecraft.entity.passive.EntityAnimal;
@@ -23,7 +22,7 @@ public class ItemThaumicDaggerOfSacrifice extends Item {
     public ItemThaumicDaggerOfSacrifice() {
         setRegistryName("thaumic_dagger_of_sacrifice");
         setTranslationKey("thaumic_dagger_of_sacrifice");
-        setCreativeTab(ArcaneArteries.tabForgottenRelics);
+        setCreativeTab(ArcaneArteriesReborn.creativeTab);
 
         setMaxStackSize(1);
         setFull3D();

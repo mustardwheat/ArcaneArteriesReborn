@@ -1,8 +1,7 @@
 package com.keletu.arcane_arteries.block;
 
-import WayofTime.bloodmagic.block.BlockBloodRune;
 import WayofTime.bloodmagic.util.helper.TextHelper;
-import com.keletu.arcane_arteries.ArcaneArteries;
+import com.keletu.arcane_arteries.ArcaneArteriesReborn;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
@@ -22,7 +21,7 @@ public class AABasicBlock extends Block {
         setHardness(2.0F);
         setResistance(5.0F);
         setHarvestLevel("pickaxe", 2);
-        setCreativeTab(ArcaneArteries.tabForgottenRelics);
+        setCreativeTab(ArcaneArteriesReborn.creativeTab);
     }
 
     @SideOnly(Side.CLIENT)

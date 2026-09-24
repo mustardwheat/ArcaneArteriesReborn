@@ -1,3 +1,5 @@
+itemGroup.arcane_arteries=Arcane Arteries Reborn
+
 item.thaumic_slate.name=Thaumic Slate
 item.mana_slate.name=Mana Slate
 
@@ -11,3 +13,6 @@ item.botany_dagger_of_sacrifice.name=Botany Dagger of Sacrifice
 
 tile.thaumic_rune.name=Thaumic Rune
 tile.mana_rune.name=Mana Rune
+
+aa.research.arcane_arteries.title=Arcane Arteries
+aa.research.arcane_arteries.text=Infuse stone in a Crucible or a Mana Pool to obtain Thaumic and Mana Slates, which a Blood Altar can turn into Reinforced Slates. Each slate crafts a rune usable as a Blood Rune in altar construction. The Runic Altar and Crucible yield more efficient sacrificial daggers, while the Mana Pool and Infusion yield more efficient daggers of sacrifice.

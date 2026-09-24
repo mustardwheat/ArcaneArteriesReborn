@@ -1,3 +1,12 @@
-# 项目排除路径
 /.gradle/
 /build/
+/run/
+/out/
+/bin/
+/.idea/
+/.classpath
+/.project
+/.settings/
+*.iml
+*.ipr
+*.iws

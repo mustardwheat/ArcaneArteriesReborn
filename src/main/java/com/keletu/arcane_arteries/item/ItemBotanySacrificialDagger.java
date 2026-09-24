@@ -7,7 +7,7 @@ import WayofTime.bloodmagic.tile.TileAltar;
 import WayofTime.bloodmagic.util.Constants;
 import WayofTime.bloodmagic.util.DamageSourceBloodMagic;
 import WayofTime.bloodmagic.util.helper.*;
-import com.keletu.arcane_arteries.ArcaneArteries;
+import com.keletu.arcane_arteries.ArcaneArteriesReborn;
 import net.minecraft.client.renderer.ItemMeshDefinition;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.client.util.ITooltipFlag;
@@ -35,7 +35,7 @@ public class ItemBotanySacrificialDagger extends Item implements IMeshProvider {
     public ItemBotanySacrificialDagger() {
         this.setRegistryName("botany_sacrificial_dagger");
         this.setTranslationKey("botany_sacrificial_dagger");
-        this.setCreativeTab(ArcaneArteries.tabForgottenRelics);
+        this.setCreativeTab(ArcaneArteriesReborn.creativeTab);
 
         setHasSubtypes(true);
         setMaxStackSize(1);

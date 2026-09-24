@@ -1,3 +1,5 @@
+itemGroup.arcane_arteries=奥法献祭学：重生
+
 item.thaumic_slate.name=神秘石板
 item.mana_slate.name=魔力石板
 
@@ -11,3 +13,6 @@ item.botany_dagger_of_sacrifice.name=精灵献祭刀
 
 tile.thaumic_rune.name=神秘符文
 tile.mana_rune.name=魔力符文
+
+aa.research.arcane_arteries.title=奥法献祭学
+aa.research.arcane_arteries.text=在坩埚或魔力池中注入石头可获得神秘石板与魔力石板，它们可以在血之祭坛中转化为强化石板。两种石板分别可以制作神秘符文与魔力符文，都可用于搭建血之祭坛。通过符文祭坛和坩埚可以获取效率更高的献祭匕首，通过魔力池和注魔可以获取效率更高的献祭刀。

@@ -1,36 +1,19 @@
 {
   "entries": [
     {
-      "key": "RIFT_FEED",
-      "name": "ftr.research.rift_feed.title",
-      "category": "ELDRITCH",
+      "key": "ARCANE_ARTERIES",
+      "name": "aa.research.arcane_arteries.title",
+      "category": "ALCHEMY",
       "icons": [
-        "arcane_arteries:rift_feed"
-      ],
-      "parents": [
-        "BASEELDRITCH"
+        "arcane_arteries:thaumic_sacrificial_dagger"
       ],
       "location": [
-        1,
-        -1
+        0,
+        0
       ],
       "stages": [
         {
-          "text": "ftr.research.rift_feed.text",
-          "required_item": [
-            "thaumcraft:causality_collapser"
-          ],
-          "required_knowledge": [
-            "THEORY;BASICS;1",
-            "THEORY;ELDRITCH;1"
-          ],
-          "warp": 2
-        },
-        {
-          "text": "ftr.research.rift_feed.complete.text",
-          "recipes": [
-            "ftr:rift_feed"
-          ]
+          "text": "aa.research.arcane_arteries.text"
         }
       ]
     }

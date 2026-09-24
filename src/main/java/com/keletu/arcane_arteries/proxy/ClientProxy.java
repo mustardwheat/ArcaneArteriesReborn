@@ -1,6 +1,5 @@
 package com.keletu.arcane_arteries.proxy;
 
-import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -19,9 +18,5 @@ public class ClientProxy extends CommonProxy {
     @Override
     public void postInit(FMLPostInitializationEvent event) {
         super.postInit(event);
-    }
-
-    @Override
-    public void modelRegistryEvent(ModelRegistryEvent event) {
     }
 }
