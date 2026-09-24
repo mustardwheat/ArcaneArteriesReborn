@@ -42,6 +42,10 @@ public class ArcaneArteriesReborn {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         proxy.preInit(event);
+
+        // Thaumcraft only parses research files whose locations were registered;
+        // must happen before its loader runs, so do it in preInit.
+        ThaumcraftApi.registerResearchLocation(new ResourceLocation(MOD_ID, "research/research"));
     }
 
     @Mod.EventHandler

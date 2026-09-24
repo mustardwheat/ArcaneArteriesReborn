@@ -50,4 +50,6 @@ dependencies {
     // Blood Magic's Guide-API dependency and JEI for recipe browsing in dev runs.
     runtimeOnly(rfg.deobf(files("libs/Guide-API-1.12-2.1.8-63.jar")))
     runtimeOnly(rfg.deobf(files("libs/jei_1.12.2-4.15.0.287-obf.jar")))
+    // Thaumic JEI so Crucible/Infusion/Arcane recipes show up in JEI.
+    runtimeOnly(rfg.deobf(files("libs/ThaumicJEI-1.12.2-1.7.0.jar")))
 }
